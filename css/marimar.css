@@ -168,7 +168,7 @@ a:hover {
 }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     .place {
         padding: 5px;
     }
@@ -176,12 +176,15 @@ a:hover {
         font-size: 25px;
         padding: 50px;
     }
+
+    nav ul {
+        display: initial; 
+    }
     nav li {
-        margin: 0 10px;
+        margin: 0 5px;
         border: none;
         border-radius: none;
-        background:none;
-        display: none;  
+        background:none; 
 }
     li {
         font-size: 16px;
