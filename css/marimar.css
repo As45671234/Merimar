@@ -167,6 +167,40 @@ a:hover {
     background-repeat: repeat-y;
 }
 }
+
+@media screen and (max-width: 400px) {
+    .place {
+        padding: 5px;
+    }
+    header {
+        font-size: 25px;
+        padding: 50px;
+    }
+    nav li {
+        margin: 0 10px;
+        border: none;
+        border-radius: none;
+        background:none;
+        display: none;  
+}
+    li {
+        font-size: 16px;
+    }
+
+    .drink {
+    background-size: 550px;
+    background-repeat: repeat-y;
+}
+    .tea {
+    background-size: 550px;
+    background-repeat: repeat-y;
+}
+    .ice_tea {
+    background-size: 550px;
+    background-repeat: repeat-y;
+}
+}
+
 footer { 
     font-style: 'italic', serif;
     font-size:50px;
