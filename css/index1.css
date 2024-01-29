@@ -130,6 +130,9 @@ a:hover {
         font-size: 25px;
         padding: 50px;
     }
+    nav ul {
+        display: initial; 
+    }
     nav li {
         margin: 0 15px;
 }
@@ -137,6 +140,7 @@ a:hover {
         font-size: 16px;
     }
 }
+
 footer { 
     font-style: 'italic', serif;
     font-size:50px;
