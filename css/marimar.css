@@ -55,7 +55,7 @@ li {
 
 .drink {
     margin-bottom: 30px;
-    border: 10px solid lightyellow; /* Blue border around sections */
+    border: 10px solid lightyellow;
     padding: 20px;
     border-radius: 50px;
     background-image: url(../image/coffeetable.webp);
@@ -66,7 +66,7 @@ li {
 
 .tea {
     margin-bottom: 30px;
-    border: 10px solid lightyellow; /* Blue border around sections */
+    border: 10px solid lightyellow;
     padding: 20px;
     border-radius: 50px;
     background-image: url(../image/tea.jpeg);
@@ -107,6 +107,21 @@ a {
 
 a:hover {
     color: #d35400; /* Orange color on hover */
+}
+
+@media screen and (min-width: 1200px) {
+    .drink {
+    background-size: 1500px;
+    
+}
+    .tea {
+    background-size: 1500px;
+    
+}
+    .ice_tea {
+    background-size: 1500px;
+    
+}
 }
 
 @media screen and (max-width: 1200px) {
