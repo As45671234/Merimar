@@ -195,7 +195,7 @@ a:hover {
     }
     nav li {
         margin: 10px 5px;
-        border: 5px solid lightyellow; /* Blue border around sections */
+        border: 5px solid lightyellow; 
         padding: 10px;
         border-radius: 50px;
         background-color: burlywood;
