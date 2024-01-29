@@ -1,0 +1,147 @@
+body {
+    font-family: 'Brush Script MT', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/back2.jpeg);
+    background-attachment: fixed;
+    min-height: 100vh;
+    border: 25px solid whitesmoke;
+    background-size: 1500px;
+}
+
+header {
+    font-style: 'italic', serif;
+    font-size:50px;
+    color: lightyellow;
+
+}
+
+nav {
+    padding: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+    display: flex;  
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 50px;
+    border: 5px solid lightyellow; /* Blue border around sections */
+    padding: 20px;
+    border-radius: 50px;
+    background-color: burlywood;
+}
+
+nav a{
+    color: lightyellow;
+}
+
+li {
+    color: lightyellow;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.place {
+    padding: 50px;
+}
+
+.drink {
+    margin-bottom: 30px;
+    border: 10px solid lightyellow; /* Blue border around sections */
+    padding: 20px;
+    border-radius: 50px;
+    background-image: url(../image/coffeetable.webp);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+
+}
+
+.tea {
+    margin-bottom: 30px;
+    border: 10px solid lightyellow; /* Blue border around sections */
+    padding: 20px;
+    border-radius: 50px;
+    background-image: url(../image/tea.jpeg);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+
+.ice_tea {
+    margin-bottom: 30px;
+    border: 10px solid lightyellow; /* Blue border around sections */
+    padding: 20px;
+    border-radius: 50px;
+    background-image: url(../image/ice.jpg);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+
+
+strong {
+    color: lightyellow;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul ul {
+    margin-left: 20px;
+    color: #333; /* Dark text color for menu items */
+}
+
+/* Optional: Style for links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d35400; /* Orange color on hover */
+}
+
+@media screen and (max-width: 1200px) {
+    .place {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    nav li {
+        margin: 0 20px;
+    }
+    .place {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 603px) {
+    .place {
+        padding: 5px;
+    }
+    header {
+        font-size: 25px;
+        padding: 50px;
+    }
+    nav li {
+        margin: 0 15px;
+}
+    li {
+        font-size: 16px;
+    }
+}
+footer { 
+    font-style: 'italic', serif;
+    font-size:50px;
+    background-image: url(../image/back2.jpeg);
+    background-attachment: fixed;
+    color: lightyellow;
+    background-size: 1500px;
+}
