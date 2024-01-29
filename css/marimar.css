@@ -55,18 +55,17 @@ li {
 
 .drink {
     margin-bottom: 30px;
-    border: 10px solid lightyellow;
+    border: 10px solid lightyellow; /* Blue border around sections */
     padding: 20px;
     border-radius: 50px;
     background-image: url(../image/coffeetable.webp);
     background-repeat: no-repeat;
     background-size: 1500px;
-    
 }
 
 .tea {
     margin-bottom: 30px;
-    border: 10px solid lightyellow;
+    border: 10px solid lightyellow; /* Blue border around sections */
     padding: 20px;
     border-radius: 50px;
     background-image: url(../image/tea.jpeg);
@@ -111,15 +110,15 @@ a:hover {
 
 @media screen and (min-width: 1200px) {
     .drink {
-    background-size: 1500px;
+    background-size: 2500px;
     
 }
     .tea {
-    background-size: 1500px;
+    background-size: 2500px;
     
 }
     .ice_tea {
-    background-size: 1500px;
+    background-size: 2500px;
     
 }
 }
@@ -195,10 +194,11 @@ a:hover {
         display: initial; 
     }
     nav li {
-        margin: 0 5px;
-        border: none;
-        border-radius: none;
-        background:none; 
+        margin: 10px 5px;
+        border: 5px solid lightyellow; /* Blue border around sections */
+        padding: 10px;
+        border-radius: 50px;
+        background-color: burlywood;
 }
     li {
         font-size: 16px;
@@ -209,11 +209,11 @@ a:hover {
     background-repeat: repeat-y;
 }
     .tea {
-    background-size: 550px;
     background-repeat: repeat-y;
+    background-size: 550px 650px;
 }
     .ice_tea {
-    background-size: 550px;
+    background-size: 600px 550px;
     background-repeat: repeat-y;
 }
 }
