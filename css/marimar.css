@@ -59,9 +59,9 @@ li {
     padding: 20px;
     border-radius: 50px;
     background-image: url(../image/coffeetable.webp);
-    background-repeat: ;
+    background-repeat: no-repeat;
     background-size: 1500px;
-
+    
 }
 
 .tea {
@@ -167,8 +167,7 @@ a:hover {
     background-repeat: repeat-y;
 }
 }
-
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 480px) {
     .place {
         padding: 5px;
     }
@@ -203,7 +202,6 @@ a:hover {
     background-repeat: repeat-y;
 }
 }
-
 footer { 
     font-style: 'italic', serif;
     font-size:50px;
